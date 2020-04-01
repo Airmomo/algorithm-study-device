@@ -1,5 +1,6 @@
 package sorting
 
+//HeapSort 堆排序
 func HeapSort(arr []int) []int {
 	if arr == nil || len(arr) < 2 {
 		return arr
